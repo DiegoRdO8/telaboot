@@ -1,0 +1,954 @@
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+    overflow-x: hidden;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+
+.btn-primarydark {
+    background-color: #1d2780;
+    color: white;
+    width: 200px;
+}
+
+.anopen {
+    width: 500px;
+}
+
+.texts {
+    width: 500px;
+}
+
+.cabecalho {
+    margin-bottom: 100px;
+    width: 700px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    position: relative;
+    font-weight: normal;
+}
+
+a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+a:hover::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: blue;
+}
+
+
+
+/*fazer um hover com as ancoras do começo*/
+
+/*fazer os collapses com as faq*/
+
+
+
+.btn-outline-primarydark {
+    color: #1e1099;
+    border: #1e1099 solid 2px;
+    margin-top: 50px;
+    width: 170px;
+    height: 45px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.container-fluid img {
+    position: relative;
+    right: 20px;
+    width: 440px;
+}
+
+.an-open h1 {
+    font-size: 5em;
+    color: black;
+}
+
+.an-open p {
+    font-size: 0.75em;
+}
+
+.loremipsum {
+    position: relative;
+    left: 190px;
+}
+
+.loremipsum h3 {
+    font-size: 33px;
+    line-height: 33px;
+    color: #000000;
+    font-weight: 700;
+    font-style: italic;
+    font-family: "IBM Plex Sans";
+    text-align: right;
+}
+
+.loremipsum p {
+    font-size: 21px;
+    line-height: 33px;
+    color: #000000;
+    font-weight: 600;
+    font-style: italic;
+    font-family: "IBM Plex Sans";
+    text-align: right;
+}
+
+.segundaparte {
+    text-align: right;
+    background-color: #1d2780;
+    color: white;
+    width: 100vw;
+}
+
+.segundaparte h2 {
+    margin-top: 40px;
+    margin-bottom: -10px;
+    font-family: "IBM Plex Sans";
+}
+
+.segundaparte h5 {
+    width: 500px;
+    position: relative;
+    left: 120px;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.line {
+    font-size: 1.2em;
+}
+
+.segundaparte p {
+    text-align: start;
+    font-size: 0.75em;
+}
+
+.containerazul {
+    background-color: #2e40df;
+}
+
+.bg-light {
+    background-color: #1d2780;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    left: 370px;
+}
+
+.flecha {
+    font-size: 5em;
+    margin: 0;
+    padding: 0;
+    color: white;
+    position: relative;
+    bottom: 15px;
+}
+
+.terceiraparte h1 {
+    font-family: "IBM Plex Sans";
+    color: #000000;
+    align-items: center;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-left: 420px;
+}
+
+.terceiraparte .btn-outline-primarydark {
+    margin-left: 565px;
+    width: 200px;
+}
+
+.terceiraparte .loremipsum {
+    position: relative;
+    left: 70px;
+    margin-top: 50px;
+}
+
+.terceiraparte .loremipsum h3 {
+    text-align: left;
+}
+
+.terceiraparte .loremipsum p {
+    text-align: left;
+}
+
+.textosolo {
+    width: 400px;
+    font-size: 0.75em;
+    margin-left: 900px;
+    margin-top: -90px;
+}
+
+.jumbotron {
+    background-color: #2e40df;
+    color: white;
+    padding: 50px;
+    margin-top: 200px;
+    margin-left: 250px;
+    width: 850px;
+    height: 500px;
+}
+
+.lead {
+    font-size: 0.75rem;
+    max-width: 400px;
+}
+
+.jumbocolunaum {
+    margin-top: 10px;
+}
+
+.jumbocolunaum p {
+    width: 200px;
+}
+
+.barra {
+    width: 2px;
+    height: 370px;
+    background-color: white;
+    position: relative;
+    right: 70px;
+    bottom: 25px;
+}
+
+.jumbotron h1 {
+    font-size: 3.4em;
+    margin-left: -30px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.jumbotron img {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-left: -10px;
+    width: 60px;
+    max-width: 300px;
+}
+
+.btn-light {
+    color: #1e1099;
+    width: 180px;
+}
+
+.extra {
+    font-size: 5em;
+}
+
+.quartaparte {
+    margin-top: 50px;
+}
+
+.quartaparte img {
+    width: 100%;
+}
+
+.detalhes {
+    color: white;
+    position: relative;
+    bottom: 200px;
+    left: 750px;
+    font-family: "IBM Plex Sans";
+}
+
+.detalhes .btn-outline-light {
+    margin-top: 15px;
+    width: 160px;
+}
+
+.quintaparte {
+    margin-top: -40px;
+}
+
+/*
+.containerselect {
+    margin-left: 380px;
+}
+
+.containerselect .row {
+    gap: 20px;
+}
+
+.containerselect .col {
+    background-color: white;
+    padding: 20px;
+    border: 2px solid #2e40df;
+}
+
+*/
+
+#carouselExampleControls {
+    position: relative;
+    left: 145px;
+}
+
+.quintaparte {
+    background-color: rgb(255, 255, 255);
+    width: 1100px;
+}
+
+.carousel-item {
+    position: relative;
+    left: 200px;
+}
+
+.boxum {
+    margin-top: 30px;
+    width: 300px;
+    background-color: white;
+    border: #1e1099 2px solid;
+}
+
+.boxum img {
+    width: 250px;
+    margin-left: 55px;
+    position: relative;
+    left: 18px;
+}
+
+.boxum h1 {
+    margin-left: 15px;
+    margin-top: -150px;
+    color: #2e40df;
+}
+
+.boxum p {
+    width: 280px;
+    font-size: xx-small;
+    text-align: center;
+}
+
+.boxum .btn-primarydark {
+    width: 150px;
+    font-size: 1em;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-bottom: 60px;
+}
+
+.boxdois {
+    margin-left: 340px;
+    margin-top: 30px;
+    width: 300px;
+    background-color: white;
+    border: #1e1099 2px solid;
+}
+
+.boxdois img {
+    width: 250px;
+    margin-left: 55px;
+    position: relative;
+    left: 18px;
+}
+
+.boxdois h1 {
+    margin-left: 15px;
+    margin-top: -150px;
+    color: #2e40df;
+}
+
+.boxdois p {
+    width: 280px;
+    font-size: xx-small;
+    text-align: center;
+}
+
+.boxdois .btn-primarydark {
+    width: 150px;
+    font-size: 1em;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-bottom: 60px;
+}
+
+.depois {
+    display: block;
+}
+
+
+.carousel-control-next {
+    content: "»";
+    color: #1e1099;
+    background-color: rgb(255, 255, 255);
+    border: #1e1099 solid 2px;
+    opacity: 1;
+    height: 50px;
+    width: 50px;
+    margin-top: 165px;
+    margin-right: 180px;
+}
+
+.carousel-control-prev {
+    content: "»";
+    color: #1e1099;
+    background-color: rgb(255, 255, 255);
+    border: #1e1099 solid 2px;
+    opacity: 1;
+    height: 50px;
+    width: 50px;
+    margin-top: 175px;
+    margin-left: 120px;
+}
+
+.newsletter {
+    width: 100%;
+    height: 350px;
+    margin-top: 90px;
+    background-color: #1d2780;
+    color: white;
+
+}
+
+.newsletter h1 {
+    margin-left: 200px;
+    font-family: "IBM Plex Sans";
+}
+
+.input-group {
+    width: 500px;
+    margin-left: 130px;
+}
+
+.form-control {
+    border-radius: 50px;
+    height: 50px;
+    background-color: transparent;
+    font-family: "IBM Plex Sans";
+    z-index: 8;
+}
+
+.botaosubmit {
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    color: #1d2780;
+    font-weight: 600;
+    position: relative;
+    bottom: 45px;
+    left: 525px;
+    z-index: 8;
+}
+
+.input {
+    margin-left: 300px;
+    position: relative;
+    top: 120px;
+}
+
+.barra-container {
+    display: flex;
+    gap: 10px;
+    z-index: 4;
+    position: relative;
+    bottom: 148px;
+    right: 500px;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.barrinha {
+    width: 2px;
+    background-color: rgb(255, 255, 255);
+    height: 352px;
+    z-index: 4;
+}
+
+.barra-containerdois {
+    display: flex;
+    gap: 10px;
+    z-index: 4;
+    position: relative;
+    bottom: 500px;
+    left: 500px;
+    justify-content: center;
+    width: 100%;
+}
+
+.barrinhadois {
+    width: 2px;
+    background-color: rgb(255, 255, 255);
+    height: 352px;
+    z-index: 4;
+}
+
+.partepontodois p {
+    width: 600px;
+    text-align: center;
+    font-size: 0.6em;
+    margin-left: 350px;
+    margin-top: 100px;
+
+}
+
+.sobrenews {
+    width: 900px;
+    color: white;
+    background-color: #1d2780;
+    margin-left: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.sobrenews h1 {
+    font-size: 3em;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-family: "IBM Plex Sans";
+}
+
+.sobrenews p {
+    margin-left: 1px;
+    margin-top: 30px;
+    text-align: unset;
+    width: 350px;
+}
+
+.sobrenews .btn-outline-light {
+    width: 150px;
+    margin-bottom: 30px;
+}
+
+.faq {
+    color: #1d2780;
+    margin-left: 50px;
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+
+.faq h1 {
+    font-size: 100px;
+    font-weight: 700;
+    font-family: "IBM Plex Sans";
+}
+
+.faq h5 {
+    margin-top: 70px;
+    margin-left: 15px;
+    font-weight: 700;
+    font-family: "IBM Plex Sans";
+}
+
+.linha {
+    border-bottom: 2px solid #1d2780;
+    width: 600px;
+    margin-bottom: 10px;
+    margin-left: 55px;
+}
+
+.questions p {
+    font-size: 15px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "IBM Plex Sans";
+    text-align: left;
+    margin-left: 80px;
+}
+
+.questions i {
+    color: black;
+    font-size: 1.7em;
+    margin-left: 80px;
+    cursor: pointer;
+}
+
+.questions h5 {
+    width: 550px;
+    color: gray;
+    font-size: 0.9em;
+    opacity: 0.6;
+    margin-left: 80px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.card {
+    border: none;
+    position: relative;
+    left: 800px;
+    bottom: 400px;
+    margin-bottom: -100px;
+}
+
+.card img {
+    margin-left: 12px;
+}
+
+.card p {
+    font-size: 0.7em;
+    font-weight: 700;
+    width: 260px;
+    text-align: justify;
+}
+
+.card button {
+    width: 150px;
+}
+
+.card .linha {
+    width: 267px;
+    margin-left: 1px;
+}
+
+.ultimaparte {
+    color: white;
+    width: 100%;
+    height: 550px;
+    margin-top: -250px;
+    background-color: #1e1099;
+}
+
+.escritos {
+    position: relative;
+    top: 100px;
+    margin-left: 500px;
+}
+
+.escritos h1 {
+    font-family: "IBM Plex Sans";
+    font-weight: 600;
+}
+
+.escritos h5 {
+    margin-top: 50px;
+    margin-left: 160px;
+    font-family: "IBM Plex Sans";
+}
+
+.escritos p {
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 300;
+}
+
+.gridancoras {
+    position: relative;
+    right: 170px;
+}
+
+.abit {
+    position: relative;
+    right: 155px;
+}
+
+.ultimaparte button {
+    font-size: 1.8em;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 1200px;
+    bottom: 300px;
+    border: none;
+}
+
+@media only screen and (max-width: 799px) {
+
+    .btn-primarydark {
+        position: relative;
+        right: 400px;
+        top: 55px;
+    }
+
+    .flex {
+        position: relative;
+        
+    }
+
+    .segundaparte p {
+        position: relative;
+        right: 0px;
+    }
+
+    .segundaparte h5 {
+        position: relative;
+        right: 600px;
+        width: 400px;
+    }
+
+    .segundaparte .col-md-5{
+        position: relative;
+        right: 120px;
+    }
+
+    .flecha {
+        font-size: 5em;
+        margin: 0;
+        padding: 0;
+        color: white;
+        position: relative;
+        bottom: 15px;
+    }
+
+    .terceiraparte h1 {
+        margin-top: 100px;
+        margin-left: 100px;
+        width: 278px;
+    }
+
+    .loremipsum{
+        margin-left: 80px;
+    }
+
+    .textosolo {
+        margin-left: 50px;
+        margin-top: 90px;
+    }
+
+    .jumbotron {
+        margin-top: 200px;
+        margin-left: 60px;
+        width: 350px;
+        height: 700px;
+    }
+
+    .jumbotron h1 {
+        font-size: 2.7rem;
+        margin-left: 10px;
+        margin-top: 35px;
+        margin-bottom: 0px;
+    }
+
+    #carouselExampleControls {
+        position: relative;
+        left: 0px;
+        right: 700px;
+    }
+
+    .carousel-item {
+        position: relative;
+        left: 0px;
+    }
+
+    .boxum {
+        margin-top: 30px;
+        width: 200px;
+        height: 300px;
+        margin-left: 25px;
+        background-color: white;
+        border: #1e1099 2px solid;
+    }
+    
+    .boxum img {
+        width: 250px;
+        margin-left: 0px;
+        position: relative;
+        left: 25px;
+        right: 200px;
+    }
+    
+    .boxum h1 {
+        margin-left: 0px;
+        margin-top: -150px;
+        color: #2e40df;
+    }
+    
+    .boxum p {
+        width: 180px;
+    }
+    
+    .boxum .btn-primarydark {
+        width: 120px;
+        margin-top: 0px;
+        margin-left: 60px;
+        margin-bottom: 0px;
+        position: absolute;
+        left: 1px;
+        top: 270px;
+    }
+    
+    .boxdois {
+        margin-left: 240px;
+        margin-top: 30px;
+        width: 200px;
+        height: 300px;
+        background-color: white;
+        border: #1e1099 2px solid;
+    }
+    
+    .boxdois img {
+        width: 250px;
+        margin-left: 15px;
+        position: relative;
+        left: 18px;
+    }
+    
+    .boxdois h1 {
+        margin-left: 0px;
+        margin-top: -150px;
+        color: #2e40df;
+    }
+    
+    .boxdois p {
+        width: 180px;
+        font-size: xx-small;
+        text-align: center;
+    }
+    
+    .boxdois .btn-primarydark {
+        width: 120px;
+        font-size: 1em;
+        margin-top: 10px;
+        margin-left: 60px;
+        margin-bottom: 60px;
+        position: absolute;
+        left: 220px;
+        top: 260px;
+    }
+
+    .carousel-control-next {
+        margin-right: 0px;
+        position: absolute;
+        left: 240px;
+        top: 190px;
+    }
+    
+    .carousel-control-prev {
+        margin-left: 0px;
+        position: absolute;
+        left: 175px;
+        top: 180px;
+    }
+
+    .input {
+        margin-left: 0px;
+        position: relative;
+        top: 120px;
+        right: 150px;
+    }
+
+    .input h1{
+        width: 400px;
+    }
+
+    .input-group {
+        width: 430px;
+        margin-left: 170px;
+    }
+
+    .form-control {
+        border-radius: 50px;
+        height: 50px;
+        background-color: transparent;
+        font-family: "IBM Plex Sans";
+        z-index: 8;
+    }
+    
+    .botaosubmit {
+        width: 100px;
+        height: 40px;
+        border-radius: 50px;
+        color: #1d2780;
+        font-weight: 600;
+        position: relative;
+        bottom: 45px;
+        left: 495px;
+        z-index: 8;
+    }
+
+    .partepontodois{
+        position: relative;
+        right: 200px;
+    }
+
+    .partepontodois p{
+        position: relative;
+        width: 400px;
+        right: 120px;
+    }
+
+    .partepontodois h1{
+        font-size: 2.3em;
+        position: relative;
+        right: 30px;
+    }
+
+    .sobrenews p{
+        position: relative;
+        left: 1px;
+    }
+
+    .card {
+        border: none;
+        position: relative;
+        left: 90px;
+        bottom: 1px;
+        margin-bottom: 400px;
+    }
+    
+    .ultimaparte {
+        color: white;
+        width: 100%;
+        height: 550px;
+        margin-top: -250px;
+        background-color: #1e1099;
+    }
+    
+    .escritos {
+        position: relative;
+        top: 100px;
+        margin-left: 0px;
+    }
+    
+    .escritos h1 {
+        font-family: "IBM Plex Sans";
+        font-weight: 600;
+        margin-left: 20px;
+    }
+    
+    .escritos h5 {
+        margin-top: 50px;
+        margin-left: 180px;
+        font-family: "IBM Plex Sans";
+    }
+    
+    .escritos p {
+        text-decoration: underline;
+        cursor: pointer;
+        font-weight: 300;
+    }
+    
+    .gridancoras {
+        width: 500px;
+        position: relative;
+        right: 00px;
+    }
+    
+    .abit {
+        width: 700px;
+        position: relative;
+        right: 165px;
+    }
+    
+
+    .ultimaparte button {
+        font-size: 1.8em;
+        width: 50px;
+        height: 50px;
+        position: relative;
+        left: 400px;
+        bottom: 400px;
+        border: none;
+    }
+}
